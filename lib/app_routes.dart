@@ -18,4 +18,6 @@ class AppRoutes {
   static const shimmerLoader = "/shimmer_loader";
   static const swipeAbleButtonAnimation = "/swipeable_button_animation";
   static const swiperAnimation = "/swiper_animation";
+  static const plantShop = "/plant_shop_home_screen";
+  static const animation404 = "/animation_404";
 }

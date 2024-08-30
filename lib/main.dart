@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animation/pages/animated_background.dart';
 import 'package:flutter_animation/pages/animated_list.dart';
+import 'package:flutter_animation/pages/animation_404_vertical.dart';
+import 'package:flutter_animation/pages/bottom_nav_bar.dart';
 import 'package:flutter_animation/pages/draggable_scrollable.dart';
 import 'package:flutter_animation/pages/fab_circular_animation.dart';
 import 'package:flutter_animation/pages/list_view_animation.dart';
@@ -56,6 +58,8 @@ class MyApp extends StatelessWidget {
         AppRoutes.shimmerLoader: (context) => const ShimmerLoader(),
         AppRoutes.swipeAbleButtonAnimation: (context) => const SwipeAbleButtonAnimation(),
         AppRoutes.swiperAnimation: (context) => const SwiperAnimation(),
+        AppRoutes.plantShop: (context) => const BottomNavBar(),
+        AppRoutes.animation404: (context) => const Flutter404VerticalAnimation(),
       },
     );
   }

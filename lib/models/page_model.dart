@@ -83,4 +83,12 @@ List<Page> animationPages = [
     title: "Swiper Animation Demo",
     route: AppRoutes.swiperAnimation,
   ),
+  Page(
+    title: "Plant Shop Demo",
+    route: AppRoutes.plantShop,
+  ),
+  Page(
+    title: "Animation 404 Demo",
+    route: AppRoutes.animation404,
+  ),
 ];
